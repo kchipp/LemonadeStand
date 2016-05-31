@@ -2,6 +2,7 @@ class Storage:
 
     def __init__(self):
     lemons = []
+    
     def storeLemons():
        vendor = Vendor()
        #ask how many lemons (function)
