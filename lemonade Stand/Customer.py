@@ -1,12 +1,26 @@
-class GameIntro:
-    def __init__(self):
-        self.intro = intro
 
-    def getIntro(self):
-        intro =("Welcome to Lemonade Stand.\n "
-                "In this game, you will try to run a lemonade stand for a week and see you you can turn a profit.\n"
-                "You will need to buy supplies.\n"
-                "and create a recipe for lemonade.\n"
-                "You will also need to watch the weather, since it could affect your sales.\n"
-                "At the end of the week, your profits will determine if you can stay in business or have to close the stand")
-        return intro
+from Temperature import Temperature
+import random
+
+class Customer:
+    def __init__(self):
+        self.customer = 0
+        self.averageCustomer = 0
+
+
+    def getCustomer(self):
+        possibleCustomers = range(50,75)
+        self.customer = random.choice(possibleCustomers)
+
+    def findCustomers(self, Temperature):
+        for self.customer in getCustomer:
+            if self.customer == ("goodTemp")
+                sales =
+            elif self.customer == ("okTemp")
+            #sales between 60% - 74% of possible customers
+            else:
+            #sales will be between 45 - 50% of possible customers
+
+
+
+
